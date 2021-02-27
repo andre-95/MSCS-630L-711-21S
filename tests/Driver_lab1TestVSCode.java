@@ -1,17 +1,13 @@
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
 import org.junit.jupiter.api.Test;
 
-public class Driver_lab1Test {
+public class Driver_lab1TestVSCode {
     String error = "An error occurred.";
     
     @Test
