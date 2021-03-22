@@ -1,7 +1,3 @@
-package tests;
-
-import main.Driver_lab3b;
-
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import java.io.File;
@@ -20,8 +16,8 @@ public class Driver_lab3bTest {
 
     @Test
     void test1() {
-        File input1 = new File("./bin/lab3bdata/input.3b.1.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.1.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.1.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.1.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -109,8 +105,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test2() {
-        File input1 = new File("./bin/lab3bdata/input.3b.2.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.2.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.2.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.2.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -198,8 +194,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test3() {
-        File input1 = new File("./bin/lab3bdata/input.3b.3.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.3.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.3.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.3.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -287,8 +283,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test4() {
-        File input1 = new File("./bin/lab3bdata/input.3b.4.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.4.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.4.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.4.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -376,8 +372,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test5() {
-        File input1 = new File("./bin/lab3bdata/input.3b.5.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.5.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.5.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.5.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -465,8 +461,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test6() {
-        File input1 = new File("./bin/lab3bdata/input.3b.6.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.6.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.6.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.6.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -554,8 +550,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test7() {
-        File input1 = new File("./bin/lab3bdata/input.3b.7.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.7.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.7.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.7.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -643,8 +639,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test8() {
-        File input1 = new File("./bin/lab3bdata/input.3b.8.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.8.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.8.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.8.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -732,8 +728,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test9() {
-        File input1 = new File("./bin/lab3bdata/input.3b.9.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.9.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.9.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.9.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -821,8 +817,8 @@ public class Driver_lab3bTest {
     
     @Test
     void test10() {
-        File input1 = new File("./bin/lab3bdata/input.3b.10.in");
-        File output1 = new File("./bin/lab3bdata/input.3b.10.ans");
+        File input1 = new File("./src/resources/lab3bdata/input.3b.10.in");
+        File output1 = new File("./src/resources/lab3bdata/input.3b.10.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);

@@ -12,8 +12,8 @@ public class Driver_lab2aTest {
 
     @Test
      void test1() {
-        File input1 = new File("./tests/lab2adata/input.2a.1.in");
-        File output1 = new File("./tests/lab2adata/input.2a.1.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.1.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.1.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -38,8 +38,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test2() {
-        File input1 = new File("./tests/lab2adata/input.2a.2.in");
-        File output1 = new File("./tests/lab2adata/input.2a.2.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.2.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.2.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -64,8 +64,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test3() {
-        File input1 = new File("./tests/lab2adata/input.2a.3.in");
-        File output1 = new File("./tests/lab2adata/input.2a.3.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.3.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.3.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -90,8 +90,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test4() {
-        File input1 = new File("./tests/lab2adata/input.2a.4.in");
-        File output1 = new File("./tests/lab2adata/input.2a.4.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.4.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.4.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -116,8 +116,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test5() {
-        File input1 = new File("./tests/lab2adata/input.2a.5.in");
-        File output1 = new File("./tests/lab2adata/input.2a.5.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.5.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.5.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -142,8 +142,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test6() {
-        File input1 = new File("./tests/lab2adata/input.2a.6.in");
-        File output1 = new File("./tests/lab2adata/input.2a.6.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.6.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.6.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -168,8 +168,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test7() {
-        File input1 = new File("./tests/lab2adata/input.2a.7.in");
-        File output1 = new File("./tests/lab2adata/input.2a.7.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.7.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.7.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -194,8 +194,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test8() {
-        File input1 = new File("./tests/lab2adata/input.2a.8.in");
-        File output1 = new File("./tests/lab2adata/input.2a.8.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.8.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.8.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -220,8 +220,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test9() {
-        File input1 = new File("./tests/lab2adata/input.2a.9.in");
-        File output1 = new File("./tests/lab2adata/input.2a.9.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.9.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.9.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
@@ -246,8 +246,8 @@ public class Driver_lab2aTest {
     
     @Test
     void test10() {
-        File input1 = new File("./tests/lab2adata/input.2a.10.in");
-        File output1 = new File("./tests/lab2adata/input.2a.10.ans");
+        File input1 = new File("./src/resources/lab2adata/input.2a.10.in");
+        File output1 = new File("./src/resources/lab2adata/input.2a.10.ans");
 
         try (
             Scanner inputReader1 = new Scanner(input1);
